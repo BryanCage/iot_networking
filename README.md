@@ -21,7 +21,8 @@ We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets 
 
 ![Wiring](images/IotNetworkingWiring.png)
 
-![ESP32 Pinouts](images/ESP32_WROOM_32D_Pinouts.svg")
+<img src="images/ESP32_WROOM_32D_Pinouts.svg"/>
+
 ### Monitoring Temperature with the TMP36
 ```c
 #include <driver/adc.h>
