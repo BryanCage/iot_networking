@@ -20,6 +20,8 @@ We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets 
 5. One Light Emitting Diode (LED) of your color choice
 
 ![Wiring](images/IotNetworkingWiring.png)
+
+![ESP32 Pinouts](images//ESP32_WROOM_32D_Pinouts.svg")
 ### Monitoring Temperature with the TMP36
 ```c
 #include <driver/adc.h>
