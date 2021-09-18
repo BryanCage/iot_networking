@@ -13,6 +13,11 @@ We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets 
 
 ### ESP32 Wiring for TMP36 Temperature Sensor (GPIO32) and LED (GPIO5)
 
+1. Two Breadboards
+2. One 220 Ohm resistor
+3. ESP32 Dev Board
+4. One TMP36 Temperature Sensor
+
 ![Wiring](images/IotNetworkingWiring.png)
 
 ### Monitoring Temperature with the TMP36
