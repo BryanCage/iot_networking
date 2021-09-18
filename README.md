@@ -57,7 +57,7 @@ void getTemp() {
   Serial.print("Temp C: ");
   Serial.println(tempC);
   Serial.print("Raw Reading: ");Serial.println(raw_val);
-  Serial.print("Volatage: ");Serial.println(voltage);
+  Serial.print("Voltage: ");Serial.println(voltage);
 
   // Print Temperature every 5 seconds to Serial Monitor
   delay(5000);
