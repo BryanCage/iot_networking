@@ -10,3 +10,7 @@ Homework:
 We will be using PhpStorm Integrated Development Environment for creating and working with our server files and directories. Please apply for a **FREE** Professional version of PhpStorm, download it and install onto your laptop.
 
 We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets for monitoring and testing.
+
+### Monitoring Temperature with the TMP36
+
+
