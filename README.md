@@ -17,6 +17,7 @@ We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets 
 2. One 220 Ohm resistor
 3. ESP32 Dev Board
 4. One TMP36 Temperature Sensor
+5. One Light Emitting Diode (LED) of your color choice
 
 ![Wiring](images/IotNetworkingWiring.png)
 
