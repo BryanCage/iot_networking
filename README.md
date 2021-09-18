@@ -11,6 +11,10 @@ We will be using PhpStorm Integrated Development Environment for creating and wo
 
 We will be using MQTT.fx software to **Subscribe** and **Publish** MQTT Packets for monitoring and testing.
 
+### ESP32 Wiring
+
+![Wiring](images/IotNetworkingWiring.png)
+
 ### Monitoring Temperature with the TMP36
 
 
