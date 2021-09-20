@@ -1,3 +1,11 @@
+/*
+  TMP36 - Three Pins (Legs)
+  Align with flat side facing you
+    Left Pin            => 3.3v
+    Middle Pin (Data)   => GPIO36 (VP)
+    Right Pin           => GND
+*/
+
 #include <driver/adc.h>
 
 float voltage;
