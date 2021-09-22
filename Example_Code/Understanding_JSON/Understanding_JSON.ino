@@ -35,6 +35,7 @@ void setup() {
  
  // Demonstrate how to parse the JSON string back into a JSON Object
  JSONVar newJsonObject = JSON.parse(stringJSON);
+ Serial.println();
  Serial.print("Latitude from newJsonObject: ");Serial.println(newJsonObject["latitude"]);
  Serial.print("Longitude from newJsonObject: ");Serial.println(newJsonObject["longitude"]);
  Serial.println();
