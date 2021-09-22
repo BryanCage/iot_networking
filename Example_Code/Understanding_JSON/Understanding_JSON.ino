@@ -30,7 +30,8 @@ void setup() {
  // The stringified verison of JSON data can be sent in the payload of MQTT Messages
  stringJSON = JSON.stringify(jsonObject);
  // Print out the stringified version of the JSON data
- Serial.println("JSON String: ");Serial.println(JSON.stringify(jsonObject));Serial.println();
+ Serial.println();
+ Serial.println("JSON String: ");Serial.print(JSON.stringify(jsonObject));Serial.println();
  
  // Demonstrate how to parse the JSON string back into a JSON Object
  JSONVar newJsonObject = JSON.parse(stringJSON);
