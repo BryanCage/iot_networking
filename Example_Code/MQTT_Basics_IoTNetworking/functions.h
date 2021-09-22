@@ -89,7 +89,7 @@ void handle_light(byte *payload, unsigned int length) {
 
   /* Print values of each Object key to the serial monitor */
   Serial.println("Parsing values from keys in JSON Object: " );
-  Serial.print("jsonObject[\"teamID\"]: ");Serial.println(jsonObject["teamID"]);
+  Serial.print("jsonObject[\"lastName\"]: ");Serial.println(jsonObject["lastName"]);
   Serial.print("jsonObject[\"message\"]: ");Serial.println(jsonObject["message"]);
 
   /* Capture the value of jsonObject["message"] into a boolean variable */
