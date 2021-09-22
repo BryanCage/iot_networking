@@ -31,7 +31,7 @@ void setup() {
  stringJSON = JSON.stringify(jsonObject);
  // Print out the stringified version of the JSON data
  Serial.println();
- Serial.println("JSON String: ");Serial.print(JSON.stringify(jsonObject));Serial.println();
+ Serial.print("JSON String: ");Serial.print(JSON.stringify(jsonObject));Serial.println();
  
  // Demonstrate how to parse the JSON string back into a JSON Object
  JSONVar newJsonObject = JSON.parse(stringJSON);
