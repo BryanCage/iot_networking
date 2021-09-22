@@ -57,8 +57,8 @@ void getTemp() {
   tempF = (tempC * 9.0 / 5.0) + 32.0;
 
   // Print to Serial Monitor for Debugging
-  Serial.print("Temp C: ");
-  Serial.println(tempC);
+  Serial.print("Temp F: ");
+  Serial.println(tempF);
   Serial.print("Raw Reading: ");Serial.println(raw_val);
   Serial.print("Voltage: ");Serial.println(voltage);
 
