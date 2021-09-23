@@ -14,7 +14,7 @@ Homework for this week Sept 22 - 29:
    ### Excerpt from index_unauth_unencript.php
    
    ```javascript
-// Anonymous Function to handle toggle switch button
+
     $(function () {
         $('.Toggle_Switch').change(function () {
             if ($(this).prop('checked')) {
