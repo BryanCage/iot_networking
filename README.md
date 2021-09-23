@@ -1,5 +1,53 @@
 # IoT Networking
 
+Homework for this week Sept 22 - 29:
+1. Open PhpStorm
+2. Double-Click the file **index_unauth_unencrypt.php** to view its contents.
+3. Now open Arduino IDE and open the program folder **MQTT_Basics_IoTNetworking**.
+4. From the **MQTT_Basics_IoTNetworking** folder open functions.h
+5. Compare the two files side-by-side.
+6. On or near lines 97 and 107 of **index_unauth_unencrypt.php** are two places that you need to 
+   replace my first (Bryan) and last (Cage) name with your first and last name. Make sure that the 
+   punctuation (capitalization) match your first and last names in the **functions.h** file around 
+   line 95.
+   
+   ### Excerpt from index_unauth_unencript.php
+   
+   ```javascript
+// Anonymous Function to handle toggle switch button
+    $(function () {
+        $('.Toggle_Switch').change(function () {
+            if ($(this).prop('checked')) {
+                console.log("Publishing to mqttSubscribe/: Message = true");
+                let message = new Paho.MQTT.Message("{\"firstName\":\"Bryan\", \"lastName\":\"Cage\", \"message\":true}");
+                console.log(message.payloadString);
+                message.destinationName = "mqttSubscribe/";
+                try {
+                    client.send(message);
+                } catch (error) {
+                    console.log("Not Connected");
+                }
+            } else {
+                console.log("Publishing to mqttSubscribe/: Message = false");
+                let message = new Paho.MQTT.Message("{\"firstName\":\"Bryan\", \"lastName\":\"Cage\", \"message\":false}");
+                console.log(message.payloadString);
+                message.destinationName = "mqttSubscribe/";
+                try {
+                    client.send(message);
+                } catch (error) {
+                    console.log("Not Connected");
+                }
+            }
+        });
+    })
+    ```
+### Excerpt from functions.h in Arduino Program Folder MQTT_Basics_IoTNetworking
+```c
+
+if ((String)firstName == "Bryan" and (String)lastName == "Cage") {
+```
+
+
 Homework:
 1. Apply for a student license for JetBrains Software: https://www.jetbrains.com/shop/eform/students
 2. Download and Install PhpStorm IDE: https://www.jetbrains.com/phpstorm/download/#section=windows
