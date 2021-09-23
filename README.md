@@ -11,7 +11,8 @@ Homework for this week Sept 22 - 29:
    punctuation (capitalization) match your first and last names in the **functions.h** file around 
    line 95.
    
-   ### Excerpt from index_unauth_unencript.php
+   ### Excerpt from index_unauth_unencript.php 
+   Replace my first and last name with yours on lines 97 and 107
    
    ```javascript
 
