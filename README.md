@@ -21,11 +21,10 @@ Homework for this week Sept 22 - 29:
    let message = new Paho.MQTT.Message("{\"firstName\":\"Bryan\", \"lastName\":\"Cage\", \"message\":false}");
                
     ```
-### Excerpt from functions.h in Arduino Program Folder MQTT_Basics_IoTNetworking
-```c
-
-if ((String)firstName == "Bryan" and (String)lastName == "Cage") {
-```
+   ### Excerpt from functions.h in Arduino Program Folder MQTT_Basics_IoTNetworking
+   ```c
+   if ((String)firstName == "Bryan" and (String)lastName == "Cage") {
+   ```
 
 
 Homework:
