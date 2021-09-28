@@ -122,7 +122,7 @@ include_once 'resource/database.php';
         clientID = "clientID-" + parseInt(Math.random() * 100);
 
         const host = "test.mosquitto.org";
-        const port = 8081; /* if port 8081 does connect change to 8080; if that doesn't work change back
+        const port = 8081; /* if port 8081 doesn't connect change to 8080; if that doesn't work change back
                               back to 8081 and try again */
 
         // Initialize new Paho client connection
