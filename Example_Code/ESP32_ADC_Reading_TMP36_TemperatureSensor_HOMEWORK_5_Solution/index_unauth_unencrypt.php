@@ -145,7 +145,7 @@ include_once 'resource/database.php';
         console.log("Connected to MQTT Test Broker!");
 
         // Subscribe to the requested topic
-        client.subscribe("iotnetworking/temp/tx");
+        client.subscribe("iotnetworking/temp/your_last_name/tx");
         let connect_message = new Paho.MQTT.Message("{\"Connected\":true}");
         connect_message.destinationName = "iotnetworking/connStat/";
         client.send(connect_message);
