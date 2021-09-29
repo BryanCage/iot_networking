@@ -1,5 +1,5 @@
 /* Define the Topic for posting temperature */
-#define MQTT_TEMP_PUBLISH_CH "iotnetworking/temp/tx"
+#define MQTT_TEMP_PUBLISH_CH "iotnetworking/temp/your_last_name/tx"
 
 #include "credentials.h"
 #include <WiFi.h>
