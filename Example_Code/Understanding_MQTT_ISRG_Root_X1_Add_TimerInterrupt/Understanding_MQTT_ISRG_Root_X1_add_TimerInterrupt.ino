@@ -1,7 +1,7 @@
 #define WIFI_TIMEOUT_MS 200
 #define MQTT_PORT 8883
 
-int device_id = 1;
+int device_id = your_device_id_here;
 int LED_pin = 5;
 
 #include "functions.h"
